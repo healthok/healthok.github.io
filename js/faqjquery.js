@@ -1,0 +1,128 @@
+$(document).ready(function(){
+    $("#f1").click(function(){
+        $("#p1").slideToggle("slow");
+		$("#p2").slideUp("slow");
+$("#p2").slideUp("slow");
+$("#p3").slideUp("slow");
+$("#p4").slideUp("slow");
+$("#p5").slideUp("slow");
+$("#p6").slideUp("slow");
+$("#p7").slideUp("slow");
+$("#p8").slideUp("slow");
+$("#p9").slideUp("slow");
+$("#p10").slideUp("slow");
+    });
+	$("#f2").click(function(){
+        $("#p2").slideToggle("slow");
+$("#p1").slideUp("slow");
+$("#p3").slideUp("slow");
+$("#p4").slideUp("slow");
+$("#p5").slideUp("slow");
+$("#p6").slideUp("slow");
+$("#p7").slideUp("slow");
+$("#p8").slideUp("slow");
+$("#p9").slideUp("slow");
+$("#p10").slideUp("slow");
+    });
+	$("#f3").click(function(){
+        $("#p3").slideToggle("slow");
+$("#p2").slideUp("slow");
+$("#p1").slideUp("slow");
+$("#p4").slideUp("slow");
+$("#p5").slideUp("slow");
+$("#p6").slideUp("slow");
+$("#p7").slideUp("slow");
+$("#p8").slideUp("slow");
+$("#p9").slideUp("slow");
+$("#p10").slideUp("slow");
+    });
+	$("#f4").click(function(){
+        $("#p4").slideToggle("slow");
+$("#p2").slideUp("slow");
+$("#p3").slideUp("slow");
+$("#p1").slideUp("slow");
+$("#p5").slideUp("slow");
+$("#p6").slideUp("slow");
+$("#p7").slideUp("slow");
+$("#p8").slideUp("slow");
+$("#p9").slideUp("slow");
+$("#p10").slideUp("slow");
+    });
+	$("#f5").click(function(){
+        $("#p5").slideToggle("slow");
+$("#p2").slideUp("slow");
+$("#p3").slideUp("slow");
+$("#p4").slideUp("slow");
+$("#p1").slideUp("slow");
+$("#p6").slideUp("slow");
+$("#p7").slideUp("slow");
+$("#p8").slideUp("slow");
+$("#p9").slideUp("slow");
+$("#p10").slideUp("slow");
+    });
+	$("#f6").click(function(){
+        $("#p6").slideToggle("slow");
+$("#p2").slideUp("slow");
+$("#p3").slideUp("slow");
+$("#p4").slideUp("slow");
+$("#p5").slideUp("slow");
+$("#p1").slideUp("slow");
+$("#p7").slideUp("slow");
+$("#p8").slideUp("slow");
+$("#p9").slideUp("slow");
+$("#p10").slideUp("slow");
+	});
+	$("#f7").click(function(){
+        $("#p7").slideToggle("slow");
+$("#p2").slideUp("slow");
+$("#p3").slideUp("slow");
+$("#p4").slideUp("slow");
+$("#p5").slideUp("slow");
+$("#p6").slideUp("slow");
+$("#p1").slideUp("slow");
+$("#p8").slideUp("slow");
+$("#p9").slideUp("slow");
+$("#p10").slideUp("slow");
+    });
+	$("#f8").click(function(){
+        $("#p8").slideToggle("slow");
+$("#p2").slideUp("slow");
+$("#p3").slideUp("slow");
+$("#p4").slideUp("slow");
+$("#p5").slideUp("slow");
+$("#p6").slideUp("slow");
+$("#p7").slideUp("slow");
+$("#p1").slideUp("slow");
+$("#p9").slideUp("slow");
+$("#p10").slideUp("slow");
+    });
+	$("#f9").click(function(){
+        $("#p9").slideToggle("slow");
+$("#p2").slideUp("slow");
+$("#p3").slideUp("slow");
+$("#p4").slideUp("slow");
+$("#p5").slideUp("slow");
+$("#p6").slideUp("slow");
+$("#p7").slideUp("slow");
+$("#p8").slideUp("slow");
+$("#p1").slideUp("slow");
+$("#p10").slideUp("slow");
+    });
+	$("#f10").click(function(){
+        $("#p10").slideToggle("slow");
+$("#p2").slideUp("slow");
+$("#p3").slideUp("slow");
+$("#p4").slideUp("slow");
+$("#p5").slideUp("slow");
+$("#p6").slideUp("slow");
+$("#p7").slideUp("slow");
+$("#p8").slideUp("slow");
+$("#p9").slideUp("slow");
+$("#p1").slideUp("slow");
+    });
+   
+$("div").mouseenter(function(){
+	
+});
+   
+});

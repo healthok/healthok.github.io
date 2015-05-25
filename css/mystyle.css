@@ -1,0 +1,63 @@
+@CHARSET "ISO-8859-1";
+.menu
+{
+	 margin-top: 5%;
+	 position:absolute;
+	 top:1%;
+	 left:28%;
+	 width:60%;
+	 height:20%;
+}
+.menu ul
+{
+	background-color:LightGreen;
+	width:80%;
+	top-margin: 100px; padding: 10px;
+	color:red;
+	text-decoration:none;
+}
+.menu a
+{
+	text-decoration:none;
+}
+.menu li
+{
+	
+	display:inline;
+	text-allingment:center;
+	padding: 15px 20px 5px 20px;
+}
+.menu a:hover {color: BLUE; }
+.logo
+{
+	
+    top: 10%;left: 10%;width: 10%;height: 5%;position: absolute;
+}
+.display
+{
+	top:30%;
+	width:90%;
+	left:5%;
+	position:absolute;
+		
+}
+.content
+{
+	width:90%;
+	height:600px;
+	top:95%;
+	left:5%;
+	position:absolute;
+	background-color:Azure  ;
+	border-radius: 20px;
+}
+.contact
+{
+	width:90%;
+	height:200px;
+	top:1260px;
+	left:5%;
+	position:absolute;
+	background-color:none  ;
+	border-radius: 20px;
+}

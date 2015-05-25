@@ -1,0 +1,13 @@
+@CHARSET "ISO-8859-1";
+hr {
+  max-width: 50px;
+  border-color: #f05f40;
+  border-width: 3px;
+}
+hr {
+  display: block;
+  -webkit-margin-before: 0.5em;
+  -webkit-margin-after: 0.5em;
+  -webkit-margin-start: auto;
+  -webkit-margin-end: auto;
+}
