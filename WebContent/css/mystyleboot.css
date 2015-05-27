@@ -11,3 +11,6 @@ hr {
   -webkit-margin-start: auto;
   -webkit-margin-end: auto;
 }
+.navbar-inverse .navbar-fnt {
+    color: #FFFFFF;
+}

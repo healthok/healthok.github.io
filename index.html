@@ -7,7 +7,7 @@
   <link rel="icon" href="images/heart.jpg" type="image/png" style="width:20px; height:10px;">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="css/mystyleboot.css">
+  <link rel="stylesheet" type="text/css" href="./WebContent/css/mystyleboot.css">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
@@ -16,6 +16,8 @@
 </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:#48BCC3" >
+<body onload="fadeItem()">
+<nav class="navbar navbar-default navbar-fixed-top" style="background-color:#2EB8E6" font-color="black" >
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -23,10 +25,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span> 
       </button>
-      <a href="#" class="navbar-brand" id="healthok">healthOk</a>
+      <font color="black">
+            <a href="#" class="navbar-brand" id="healthok">healthOk</a>
     </div>
+    </font>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-right" style="color:balck;">
         <li id="home"><a href="#">Home</a></li>
         <li id="about"><a href="#">About</a></li>
         <li id="services"><a href="#">Service</a></li> 
@@ -38,10 +42,11 @@
 </nav>
 <br>
 <br>
-<br>
-<br>
 <div class="container-fluid">
-<h2 class="bg-primary text-center">FREE MEDICINE DELIVERY AT YOUR DOORSTEP</h2>
+<h2 class=" text-center" style="background-color:#FFCC99">FREE MEDICINE DELIVERY AT YOUR DOORSTEP</h2>
+</div>
+<div class="container-fluid">
+<img src="./WebContent/images/process.png" width="100%">
 </div>
 <div class="container-fluid" style="background-color: #223344;">
 <div class="row text-center">
