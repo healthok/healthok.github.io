@@ -24,7 +24,7 @@ $("#four").click(function(){
     $("#p4").toggle();
 }); 
 $('#scroll1').click(function(){
-	var p = $( "#ser" );
+	var p = $( "#desc" );
 	var offset = p.offset();
 	 $('html, body').animate({scrollTop: offset.top}, 'slow');
 	return false;
