@@ -120,6 +120,7 @@ $("#p8").slideUp("slow");
 $("#p9").slideUp("slow");
 $("#p1").slideUp("slow");
     });
+
    
 $("div").mouseenter(function(){
 	
