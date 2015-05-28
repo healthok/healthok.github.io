@@ -2,27 +2,27 @@ $(document).ready(function(){
 	$('#one').click(function(){
 		var p=$("#pharma");
 		var offset=p.offset();
-		 $('html, body').animate({scrollTop: offset.top}, 'slow');
+		 $('html, body').animate({scrollTop: offset.top }, 'slow');
 		return false;
 	}); 
 	$('#two').click(function(){
 		var p=$("#pharma");
 		var offset=p.offset();
-		 $('html, body').animate({scrollTop: offset.top}, 'slow');
+		 $('html, body').animate({scrollTop: offset.top }, 'slow');
 		return false;
-	}); 
-$('#three').click(function(){
-	var p = $( "#pharma" );
-	var offset = p.offset();
-	 $('html, body').animate({scrollTop: offset.top}, 'slow');
-	return false;
-}); 
-$('#four').click(function(){
-	var p = $( "#pharma" );
-	var offset = p.offset();
-	 $('html, body').animate({scrollTop: offset.top}, 'slow');
-	return false;
-}); 
+	});
+	$('#three').click(function(){
+		var p=$("#pharma");
+		var offset=p.offset();
+		 $('html, body').animate({scrollTop: offset.top }, 'slow');
+		return false;
+	});
+	$('#four').click(function(){
+		var p=$("#pharma");
+		var offset=p.offset();
+		 $('html, body').animate({scrollTop: offset.top }, 'slow');
+		return false;
+	});
 $('#about').click(function(){
 	var p = $( "#aboutus" );
 	var offset = p.offset();
