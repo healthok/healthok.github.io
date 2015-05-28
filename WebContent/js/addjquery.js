@@ -1,10 +1,10 @@
 $(document).ready(function(){
-$('#scroll1').click(function(){
-	var p = $( "#about" );
-	var offset = p.offset();
-	 $('html, body').animate({scrollTop: offset.top }, 'slow');
-	return false;
-}); 
+	$('#one').click(function(){
+		var p=$("#pharma");
+		var offset=p.offset();
+		 $('html, body').animate({scrollTop: offset.top}, 'slow');
+		return false;
+	}); 
 $('#scroll2').click(function(){
 	var p = $( "#ser" );
 	var offset = p.offset();
