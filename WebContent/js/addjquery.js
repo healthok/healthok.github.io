@@ -1,32 +1,8 @@
 $(document).ready(function(){
-    $("#one").click(function(){
-        $("#p2").hide();
-         $("#p3").hide();
-         $("#p4").hide();
-        $("#p1").toggle();
-    }); 
-    $("#two").click(function(){
-        $("#p1").hide();
-         $("#p3").hide();
-         $("#p4").hide();
-        $("#p2").toggle();
-       });
-$("#three").click(function(){
-        $("#p2").hide();
-         $("#p1").hide();
-         $("#p4").hide();
-        $("#p3").toggle();
-    }); 
-$("#four").click(function(){
-    $("#p2").hide();
-     $("#p1").hide();
-     $("#p3").hide();
-    $("#p4").toggle();
-}); 
 $('#scroll1').click(function(){
-	var p = $( "#desc" );
+	var p = $( "#about" );
 	var offset = p.offset();
-	 $('html, body').animate({scrollTop: offset.top}, 'slow');
+	 $('html, body').animate({scrollTop: offset.top }, 'slow');
 	return false;
 }); 
 $('#scroll2').click(function(){
