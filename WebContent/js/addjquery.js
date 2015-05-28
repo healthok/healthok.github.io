@@ -5,20 +5,20 @@ $(document).ready(function(){
 		 $('html, body').animate({scrollTop: offset.top}, 'slow');
 		return false;
 	}); 
-$('#scroll2').click(function(){
-	var p = $( "#ser" );
+	$('#two').click(function(){
+		var p=$("#pharma");
+		var offset=p.offset();
+		 $('html, body').animate({scrollTop: offset.top}, 'slow');
+		return false;
+	}); 
+$('#three').click(function(){
+	var p = $( "#pharma" );
 	var offset = p.offset();
 	 $('html, body').animate({scrollTop: offset.top}, 'slow');
 	return false;
 }); 
-$('#scroll3').click(function(){
-	var p = $( "#ser" );
-	var offset = p.offset();
-	 $('html, body').animate({scrollTop: offset.top}, 'slow');
-	return false;
-}); 
-$('#scroll4').click(function(){
-	var p = $( "#ser" );
+$('#four').click(function(){
+	var p = $( "#pharma" );
 	var offset = p.offset();
 	 $('html, body').animate({scrollTop: offset.top}, 'slow');
 	return false;
