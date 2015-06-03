@@ -1,8 +1,4 @@
 $(document).ready(function(){
-	$(document).ready(function(){
-	    $("#one").click(function(){
-	        $("#p1").toggle();
-	    }); 
 	$('#one').click(function(){
 		var p=$("#pharma");
 		var offset=p.offset();
