@@ -13,6 +13,22 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script src="./WebContent/js/addjquery.js" type="text/javascript"></script>
+   <script>
+$(document).ready(function(){
+
+    $("#one").click(function(){
+        $("#p4").hide();
+         $("#p1").toggle();
+     });
+    $("#four").click(function(){
+        $("#p1").hide();
+        $("#p4").toggle();
+       });
+	
+    
+});
+</script>
+  
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top" style="background: #70B8FF;border-color: black; " >
@@ -50,7 +66,7 @@
 <div class="row">
 <div class="col-sm-12">
 <img src="./WebContent/images/map.png" width="100px" height="100px">
-<h2 id="atservices" >Available at Gorakhpur</h2>
+<h2 id="atservices" >Available at Gorakhpur & Dibrugarh</h2>
 <br><br>
 </div>
 </div>
@@ -65,13 +81,13 @@
 </div>
 <div class="col-md-3">
 <br>
-<img src="./WebContent/images/discount.png" width="150px" height="150px">
+<img src="./WebContent/images/discount.png" width="180px" height="180px">
 <br>
 <font color="white"><h3>Discounted Prices</h3></font>
 </div>
 <div class="col-md-3">
 <br>
-<img src="./WebContent/images/free.png" width="150px" height="150px">
+<img src="./WebContent/images/free.png" width="140px" height="140px">
 <br>
 <font color="white"><h3>Guaranteed Medicine Delivery</h3></font>
 </div>
@@ -104,7 +120,7 @@
      <div class="service-box" id="one">
        <img src="./WebContent/images/med.png" class="img-rounded img-responsive img-center" alt="image" style="display: block; margin-left: auto; margin-right: auto;">
          <h3 class="text-center">Pharmacy</h3></div></a>
-         <p class="text-muted text-center">get free medicine at your door step without any cost</p>
+         <p class="text-muted text-center">Get free medicine at your door step without any cost</p>
     </div>
 <div class="col-sm-3" id="scroll2">
      <div class="service-box" id="two">
@@ -130,7 +146,7 @@
     </div>
     <div class="container">
     <div class="row">
-    <div id="p1">
+    <div id="p1" style="display: none;">
     <h2 class="text-center section-heading text-primary" style="display: block;">Pharmacy</h2>
     <div class="col-sm-4">
     <img src="./WebContent/images/Untitled.png" alt="image" width=100%; height=100%;" >
@@ -152,28 +168,46 @@
     <h2 class="text-center section-heading text-primary" style="display: block;">Doctor Appointment</h2>
 <p >Very soon we will start 24*7 Doctor Appointment Service. Other features of this service will be updated soon</p>
 </div>
- <div id="p4" style="display:none">
-    <h2 class="text-center section-heading text-primary" style="display: block;">Reports And Lab</h2>
-<p >Very soon we will start 24*7 Ambulance Service. Other features of this service will be updated soon</p>
-</div>
- <div class="container">
-<h2 class="text-center section-heading" style="display: block;" id="aboutus">About Us</h2>
+<div class="container">
+    <div class="row">
+    <div>
+     <h2 class="text-center section-heading text-primary" style="display: block;">Reports & Lab</h2>
+     </div>
+    <div id="p4" style="display: none;">
+    </div>
+    <div class="col-sm-4">
+    <img src="./WebContent/images/pathology.jpg" alt="image" width=80%; height=80%;" >
+    <br>
+    <br>
+    </div>
+    <div class="col-sm-8">
+   <p > healthOk is an easy, reliable way to get your medications. And medications are often at lower prices than at a retail pharmacy.
+   </p>
+   </div>
+    </div>
+    </div>
+    </div>
+
+
+<div class="container"  id="aboutus">
+<h2 class="text-center section-heading" style="display: block;">About Us</h2>
 <hr class="primary" style="border-top: 3px solid #C71E1E;">
-<p>HealthOK is formed by a team of Medical, IT, Industry professionals, and budding entrepreneurs who have come together to bring a unique healthcare services platform with the goal of providing accountable, affordable and timely care.   </p>
+<p>HealthOK is formed by a team of Medical, IT, Industry professionals, and budding entrepreneurs who have come together to bring a unique healthcare services platform with the goal of providing accountable, affordable and timely care. Our unique technology service is focused at providing you with an integrated healthcare delivery network while providing you with the best of care with the same hospitals, doctors, pharmacists, pathologist that you trust.We bring healthcare to you.   </p>
 <p>Today Healthcare is no longer a simple visit to your family physician that took care of all your healthcare needs. In today’s world healthcare has become a complex web of multiple providers which consumes a lot of time in just managing the various aspects of care, whether it is making appointment with your doctor, getting tests done, getting the needed medicine or in some cases as simple and essential as ensuring that you have transportation to reach the doctor/hospital.</p>
-   <p>Our unique technology service is focused at providing you with an integrated healthcare delivery network while providing you with the best of care with the same hospitals, doctors, pharmacists, pathologist that you trust.<br>We bring healthcare to you.   </p>
-   <div class="row">
-   <div class="col-sm-6">
+ <div class="row">
+   <div class="col-sm-9">
    <h4>Our Mission</h4>
-   <p>Our mission is to utilize technology and compassionate services to provide accountable, affordable and timely care.
+   <p><i>Our mission is to utilize technology and compassionate services to provide accountable, affordable and timely care.</i>
   </p>
-  
+  <h4>Our Vision</h4>
+   <p><i>Make healthcare simple.</i> </p>
    </div>
-    <div class="col-sm-6">
-    <h4>Our Vision</h4>
-    <p>Make healthcare simple. </p>
+   
+    <div class="col-sm-3">
+    <img src="./WebContent/images/about.png" alt="image" width=60%; height=70%;" >
+   
    </div>
-</div>
+  </div>
 </div>
 <div class="container-fluid" style="height:200px; width:100%;" id="contactus">
 <h2 class="text-center section-heading" style="display: block;">Contact Us</h2>
