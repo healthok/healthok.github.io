@@ -18,7 +18,7 @@ $('#about').click(function(){
 	return false;
 }); 
 $('#services').click(function(){
-	var p = $( "#atservices" );
+	var p = $( "#refill" );
 	var offset = p.offset();
 	 $('html, body').animate({scrollTop: offset.top}, 'slow');
 	return false;
