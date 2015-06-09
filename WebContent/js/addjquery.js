@@ -5,7 +5,7 @@ $(document).ready(function(){
 		 $('html, body').animate({scrollTop: offset.top }, 'slow');
 		return false;
 	}); 
-	$('#four').click(function(){
+	$('#two').click(function(){
 		var p=$("#pharma");
 		var offset=p.offset();
 		 $('html, body').animate({scrollTop: offset.top }, 'slow');
