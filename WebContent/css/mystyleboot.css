@@ -6,3 +6,8 @@
 .well{
 background-color: rgb(22, 105, 173);
 }
+.item{
+    display: none;
+    position: relative;
+    .transition(.6s ease-in-out left);
+}
